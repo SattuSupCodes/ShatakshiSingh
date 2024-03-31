@@ -6,7 +6,9 @@
         <meta name="description" content="welcome to my portfolio website!">
         <meta http-equiv="X-UA-compatible" content="IE=edge">
         <meta name="viewport" content="width=device=width, initial-scale=1.0">
-        <script src="portfolio.js"></script>
+       
+        <script src="https://kit.fontawesome.com/fbf54b4b97.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="weblogo.PNG" type="image">
 
     
         <link rel="stylesheet" href="portfolio.css">
@@ -16,18 +18,23 @@
             <div class="container">
                 <nav>
                     <img src="logo2.jpg" alt="logo" class="logo">
-                    <ul>
-                        <li><a href="#">Home</a> </li>
-                        <li><a href="#">About</a> </li>
-                        <li><a href="#">Services</a> </li>
-                        <li><a href="#">Portfolio</a> </li>
-                        <li><a href="#">Contact</a> </li>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a> </li>
+                        <li><a href="#about">About</a> </li>
+                        <li><a href="#services">Services</a> </li>
+                        <li><a href="#portfolio">Portfolio</a> </li>
+                        <li><a href="#contact">Contact</a> </li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
 
                     </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    
+
                 </nav>
                 <div class="header-text">
                     <p>Content Creator | Web Developer</p>
                     <h1>Hi, I'm <span>Shatakshi Singh</span></h1>
+                   <a href="shatakshi_Resume.pdf" download class="btn"><button class="btn2">Download CV</button></a>
                 </div>
             </div>
         </div>
@@ -35,7 +42,7 @@
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="">
+                        <img src="Portfolio.gif">
                     </div>
                     <div class="about-col-2">
                         <h2 class="subtitle">About me</h2>
@@ -57,6 +64,7 @@
                             <li><span>Web development</span><br>Designing and making responsive webpages</li>
                             <li><span>Content Writing</span><br>Writing SEO optimised blogs and articles</li>
                             <li><span>Public Speaking</span><br>Confident at giving public speeches and presentations</li>
+                            <li><span>Editing</span><br>Video and photo editing</li>
                         
                             
                         </ul>
@@ -83,5 +91,122 @@
                 </div>
             </div>
         </div>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-tv"></i>
+                        <h2>UI/UX design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Fusce tincidunt finibus quam, at tempus mi tempus sit amet.<br> Donec dictum tincidunt mattis. Quisque vitae lorem <br> a metus venenatis scelerisque. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Fusce tincidunt finibus quam, at tempus mi tempus sit amet.<br> Donec dictum tincidunt mattis. Quisque vitae lorem <br> a metus venenatis scelerisque. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-square-plus"></i>
+                        <h2>Content Creation</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Fusce tincidunt finibus quam, at tempus mi tempus sit amet.<br> Donec dictum tincidunt mattis. Quisque vitae lorem <br> a metus venenatis scelerisque. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-file-powerpoint"></i>
+                        <h2>Presentations</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Fusce tincidunt finibus quam, at tempus mi tempus sit amet.<br> Donec dictum tincidunt mattis. Quisque vitae lorem <br> a metus venenatis scelerisque. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-blog"></i>
+                        <h2>Blogs</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Fusce tincidunt finibus quam, at tempus mi tempus sit amet.<br> Donec dictum tincidunt mattis. Quisque vitae lorem <br> a metus venenatis scelerisque. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h2>Editing</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Fusce tincidunt finibus quam, at tempus mi tempus sit amet.<br> Donec dictum tincidunt mattis. Quisque vitae lorem <br> a metus venenatis scelerisque. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------Portfolio------->
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub-title">My Works</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work1.jpeg">
+                        <div class="layer">
+                            <h3>
+                            Commercial website
+                            </h3>
+                            <p>Freelanced and created a commercial website for clients</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work2.jpeg">
+                        <div class="layer">
+                            <h3>
+                            Laptop Rental Blog
+                            </h3>
+                            <p>Interned and wrote a blog for a laptop rental firm</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work3.jpeg">
+                        <div class="layer">
+                            <h3>
+                            Newspaper Publication
+                            </h3>
+                            <p>Wrote an article on hidden opportunities in lockdown in 2020 and <br>
+                            got it published in Morning India Newspaper(Patna)</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!---------contact--------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>shatakshisingh2005@gmail.com</p>
+                        <p>9818774247</p>
+                        <p>8882800711</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/sattusup_xo/"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/shatakshi-singh-391177283/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BTgBt%2BRH2SauSj18uy47DwQ%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://discord.com/users/sattu_sup"><i class="fa-brands fa-discord"></i></a>
+                            <a href="https://github.com/SattuSupCodes"><i class="fa-brands fa-github"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Enter Name" required>
+                            <input type="email" name="email" placeholder="name@example.com" required>
+                            <textarea name="Message"  rows="6" placeholder="Write to me!"></textarea>
+                            <button  class="btn2"type="submit">Send!</button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Shatakshi. Made with <i class="fa-solid fa-heart"></i> by Shatakshi Singh</p>
+            </div>
+        </div>
 
     </body>
+
+   
