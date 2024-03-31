@@ -14,7 +14,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(portfoliobg.jpg);
+    background-image: url(assets/portfoliobg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -330,7 +330,7 @@ nav .fa-solid{
     #header {
         width: 100%;
         height: 100vh;
-        background-image: url(phonebg.jpg);
+        background-image: url(assets/phonebg.jpg);
         background-size: cover;
         background-position: center;
     }
